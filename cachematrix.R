@@ -11,7 +11,7 @@ inv <- NULL
   }
   get <- function() x
   setinverse <- function(inverse) m <<- inverse
-  getinverse <- function() m
+  getinverse <- function() inv
   list(set = set, get = get,
        setinverse = setinverse,
        getinverse = getinverse)
